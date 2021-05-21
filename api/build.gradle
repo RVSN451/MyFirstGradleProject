@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'com.kostakov'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":db")
+    implementation project(":service")
+
+}
+
+jar {
+    manifest {
+        attributes 'Main-class' : 'com.kostakov.Main'
+    }
+}
+
+
+

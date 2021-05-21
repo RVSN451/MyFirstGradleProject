@@ -1,0 +1,20 @@
+plugins {
+
+    id 'idea'
+}
+
+group 'com.kostakov'
+version '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+
+
+
